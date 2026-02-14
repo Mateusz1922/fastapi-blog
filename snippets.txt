@@ -14,3 +14,8 @@ posts: list[dict] = [
         "date_posted": "April 21, 2025",
     },
 ]
+
+What is Pydantic?
+It's a data validation library, that uses python type hints, they are not just for the documentation,
+it enforces them at runtime and gives you detailed error messages when something doesn't match up. It 
+comes built-in with FastAPI
